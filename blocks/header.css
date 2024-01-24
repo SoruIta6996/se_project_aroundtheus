@@ -1,0 +1,8 @@
+.header {
+ margin: 0;
+}
+
+.header__line {
+    border-bottom: 1px solid;
+}
+

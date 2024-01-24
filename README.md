@@ -1,21 +1,49 @@
 # Project 3: Around The U.S.
 
-### Overview  
+## Overview
 
-* Intro  
-* Figma  
-* Images  
-  
+Welcome to Around the U.S.! This project aims to develop an interactive web page that showcases a collection of card elements using front-end techniques. The primary features include the utilization of CSS Grid layout, card components, text overflow handling, and responsive design through media queries. The goal is to create a visually appealing and interactive page where users can add and remove their photos, photos of other users, and make a few minor adjustments to their own profile.
+
 **Intro**
+
+## Key Features 
+
+### 1. CSS Grid Layout
+
+Leveraging the power of CSS Grid, we are structuring the layout to provide a flexible and grid-based design. This ensures a responsive and dynamic arrangement of card elements on the page, adapting seamlessly to various screen sizes.
+
+### 2. Card Components
+
+Each profile element is encapsulated within a card component. Cards not only enhance the visual organization of the content but also provide a modular structure, making it easier to manage and style individual profiles.
+
+### 3. Text Overflow Handling
+
+To maintain a polished appearance, we are implementing robust text overflow handling strategies. This ensures that text within the profile elements is displayed gracefully, even when it exceeds the allocated space, providing a seamless user experience.
+
+### 4. Media Queries for Responsiveness
+
+Ensuring a consistent and optimal user experience across devices, we are incorporating media queries. These queries dynamically adjust the layout and styling based on the user's screen size, making the page accessible and visually pleasing on both desktop and mobile devices.
+
+## Getting Started
+
+To explore the project and witness the initial stages of development, follow these steps:
+
+1. Clone the repository:
+
+   ...bash
+   git clone <!-- insert repository -->
+
+## Next Steps
+
+As we progress through the developmemt stages, additional features and improvements will be introduced. Your feedback and contributions are highly encouraged!
+
+## License 
+
+This project is licensed under the MIT License.
+
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+<!-- * [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
+
+4. Pictures, GIFs, or screenshots that detail the project features (highly
+recommended)
+5. The link to GitHub Pages --> 
