@@ -12,6 +12,8 @@ Welcome to Around the U.S.! This project aims to develop an interactive web page
 
 Leveraging the power of CSS Grid, we are structuring the layout to provide a flexible and grid-based design. This ensures a responsive and dynamic arrangement of card elements on the page, adapting seamlessly to various screen sizes.
 
+![Card Elements display with Grid Layout](/images/demo/Elements.png)
+
 ### 2. Card Components
 
 Each profile element is encapsulated within a card component. Cards not only enhance the visual organization of the content but also provide a modular structure, making it easier to manage and style individual profiles.
@@ -20,9 +22,13 @@ Each profile element is encapsulated within a card component. Cards not only enh
 
 To maintain a polished appearance, we are implementing robust text overflow handling strategies. This ensures that text within the profile elements is displayed gracefully, even when it exceeds the allocated space, providing a seamless user experience.
 
+![Card Element displaying the use of Text Overflow](/images/demo/cardel.png)
+
 ### 4. Media Queries for Responsiveness
 
 Ensuring a consistent and optimal user experience across devices, we are incorporating media queries. These queries dynamically adjust the layout and styling based on the user's screen size, making the page accessible and visually pleasing on both desktop and mobile devices.
+
+![Display of the Mobile View exemplifying the use of Media Queries](/images/demo/MOBILE.png)
 
 ## Getting Started
 
@@ -42,8 +48,4 @@ As we progress through the developmemt stages, additional features and improveme
 This project is licensed under the MIT License.
 
   
-<!-- * [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  
-
-4. Pictures, GIFs, or screenshots that detail the project features (highly
-recommended)
-5. The link to GitHub Pages --> 
+ [Link to the project on Figma](https://www.figma.com/file/ii4xxsJ0ghevUOcssTlHZv/Sprint-3%3A-Around-the-US?node-id=0%3A1)  

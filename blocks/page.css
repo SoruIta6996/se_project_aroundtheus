@@ -6,15 +6,24 @@
 .page__section {
     max-width: 880px;
     width: 100%;
+    box-sizing: border-box;
     position: relative;
     margin: 0 auto;
 }
 
 .page__content {
+    background-color: #000000;
+    -webkit-font-smoothing: antialiased;
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px; 
-    padding-top: 45px;
-    min-height: 100vh;
+    padding: 0 20px;
 }
+
+@media screen and (max-width:320px) {
+   .page__content {
+    padding: 0;
+   }
+
+}
+
+ 

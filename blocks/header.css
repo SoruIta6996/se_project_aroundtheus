@@ -1,8 +1,24 @@
 .header {
- margin: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.7);
+    min-height: 74px;
+    display: flex;
+    align-items: center;
 }
 
-.header__line {
-    border-bottom: 1px solid;
+.header__logo {
+    width: 173px;
+    height: 33px;
+    object-fit: contain;
+    padding: 45px 0px 41px 0px;
+    
 }
 
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 126px;
+        height: 24px;
+        padding: 28px 167px 32px 27px; 
+    }
+
+}
+    

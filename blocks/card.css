@@ -11,6 +11,7 @@
 }
 
 .card__title {
+    font-family: "Inter" Arial, sans-serif;
     justify-content: space-between;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -34,7 +35,6 @@
     white-space: nowrap;
     overflow: hidden;
     margin: 0;
-    /* justify-content: space-around; */
     justify-content: flex-start;
 } 
 
@@ -52,8 +52,7 @@
     transition: rgba(0, 0, 0, 1) opacity 0.3s ease-in;
 }
 .card__like-button:hover {
-    transition: rgba(0, 0, 0, 0.015) opacity 0.3s ease-in;
-    opacity: 0.5px;
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 320px) {
