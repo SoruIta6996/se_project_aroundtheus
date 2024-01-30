@@ -37,7 +37,7 @@ To explore the project and witness the initial stages of development, follow the
 1. Clone the repository:
 
    ...bash
-   git clone git@github.com:SoruIta6996/se_project_aroundtheus.git
+   git clone https://github.com/SoruIta6996/se_project_aroundtheus.git 
 
 ## Next Steps
 
