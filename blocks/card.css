@@ -11,7 +11,7 @@
 }
 
 .card__title {
-    font-family: "Inter" Arial, sans-serif;
+    font-family: "Inter", Arial, sans-serif;
     justify-content: space-between;
     text-overflow: ellipsis;
     white-space: nowrap;
