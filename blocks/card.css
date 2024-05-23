@@ -3,9 +3,6 @@
     flex-direction: column;
     border-radius: 10px;
     list-style-type: none;
-    /* text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden; */
 }
 
 .card__image {
@@ -60,15 +57,8 @@
 }
 
 @media screen and (max-width: 320px) {
-    .card {
-        flex-direction: column;
-        border-radius: 10px;
-        list-style-type: none;
-    }
+    
     .card__image {
-        margin: 0;
-    }
-    .card__description {
         margin: 0;
     }
  }
