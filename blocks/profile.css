@@ -11,9 +11,23 @@
     "description description";
     grid-template-columns: minmax(auto, 373px) auto;
     align-items: center;
-    width: 415px;
-    height: 77px;
+    max-width: 415px;
+    min-height: 77px;
 }
+
+.profile__title {
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 42px;
+    line-height: 48px;
+    max-width: 375px;
+    font-weight: 500;
+    grid-area: title;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
 .profile__edit-button {
     background: transparent url(../images/Vector3.svg) center no-repeat;
     width: 24px;
@@ -23,7 +37,6 @@
     border: 1px solid rgb(255, 255, 255);
     transition: #fff 1s linear ease-in-out 0.1s;
     position: relative;
-    top: 16;
 }
 .profile__edit-button:hover { 
     cursor: pointer;
@@ -44,19 +57,6 @@
 .profile__add-button:hover {
     cursor: pointer;
     opacity: 0.6;
-}
-
-.profile__title {
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 42px;
-    line-height: 48px;
-    width: 375px;
-    font-weight: 500;
-    grid-area: title;
-    margin: 0;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .profile__description {
@@ -105,9 +105,10 @@
         flex-direction: row-reverse;
         margin-right: 5px;
     }
-    .page__content {
-        padding: 0;
+    .profile__description {
+        margin-left: 30px;
     }
+   
     .profile__edit-button {
         margin-left: 5px;
         margin-bottom: auto;

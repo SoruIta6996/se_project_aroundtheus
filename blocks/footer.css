@@ -2,22 +2,15 @@
   font-family: "Inter", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  flex-shrink: 0;
-  margin: 0;
-  width: 0;
-  height: 0;
 }
 
 
 .footer__copyright {
   line-height: 22px;  
   color: #545454;  
-  min-height: 100vh;
   object-fit: fill;
-  /* margin: 67px 762px 60px 180px; */
-  padding: 67px 762px 60px 20px;
-  width: 318px;  
-  height: 18px;
+  max-width: 318px;  
+  margin-top: 67px;
 }
 
 @media screen and (max-width: 320px) {
@@ -25,7 +18,7 @@
     padding: 0 0 0 19px;
   }
   .footer__copyright {
-    width: 282px;  
-    height: 14px;
+    max-width: 282px;  
+    margin-top: 48px;
   }
 }
