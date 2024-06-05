@@ -11,6 +11,7 @@
   object-fit: fill;
   max-width: 318px;  
   margin-top: 67px;
+  margin-bottom: 60px;
 }
 
 @media screen and (max-width: 320px) {
@@ -22,5 +23,6 @@
     margin-top: 48px;
     font-size: 14px;
     line-height: 17px;
+    margin-bottom: 36px;
   }
 }
