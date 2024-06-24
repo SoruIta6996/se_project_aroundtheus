@@ -3,6 +3,7 @@
     min-height: 74px;
     display: flex;
     align-items: center;
+    margin-bottom: 42px;
 }
 
 .header__logo {
@@ -13,7 +14,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width:320px) and (max-width:425px) {
     .header__logo {
         width: 126px;
         height: 24px;

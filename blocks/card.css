@@ -8,7 +8,6 @@
 .card__image {
     object-fit: cover;
     width: 282px;
-    height: 282px;
 }
 
 .card__title {
@@ -56,7 +55,7 @@
     opacity: 0.5;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width:320px) and (max-width:425px) {
     
     .card__image {
         margin: 0;
