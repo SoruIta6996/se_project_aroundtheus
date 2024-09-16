@@ -1,0 +1,78 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    padding: 0 19px;
+    /* display: none; */
+}
+
+.modal__opened {
+    display: flex;
+}
+
+.modal__container {
+    position: relative;
+    padding: 36px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 10px;
+    width: 430px;
+    margin-top: 0;
+    padding: 0;
+    top: 235px;
+}    
+
+.modal__close {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    position: absolute;
+    bottom: calc(100% + 5px);
+    left: calc(100% +  5px);
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/Close\ Icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.modal__heading {
+    font-family: "Inter", Arial, sans-serif;
+    color: #000;
+    width: 330px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 34px;
+    margin-left: 36px;
+    margin-bottom: 25px;
+}
+
+.modal__form_textbox {
+    margin-top: 0;
+    height: 27px;
+    padding-top: 29px;
+    width: 358px;
+    border-width: 0;
+    border-bottom-width: 1px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal__button {
+    color: #fff;
+    background-color: #000;
+    font-family: "Inter", Arial, sans-serif;
+    border: 0;
+    margin-top: 48px;
+    margin-bottom: 36px;
+    height: 56px;
+    width: 374px;
+}
